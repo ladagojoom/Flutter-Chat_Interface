@@ -11,7 +11,7 @@ class AuthService {
     return _auth.currentUser;
   }
 
-  // sing in
+  // sing in dfd
   Future<UserCredential> signInWithEmailPassword(String email, password) async {
     try {
       // sign in user
